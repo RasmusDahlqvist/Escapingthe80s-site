@@ -1,0 +1,164 @@
+/* Base Styles -------------------- */
+
+body {
+  color: #878787;
+  margin: 0;
+  font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1{
+
+  text-align: center;
+}
+
+h2 {
+  font-size: 3.3125em; /* 53px/16px  */
+  font-weight: normal;
+  line-height: 1.1;
+  margin: 0 0 .5em; /* 0 0 26px */
+}
+
+h3 {
+  font-size: 1.25em; /* 20px/16px  */
+  color: #48525c;
+  line-height: 1.2;
+  margin-bottom: 1.7em; /* 34px */
+}
+
+/* Pseudo-classes ------------------ */
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+
+a:active {
+  color: white;
+}
+
+/* Main Styles --------------------- */
+
+.main-header {
+  background-color:   #ff48c4;
+}
+
+.title {
+  color: white;
+  font-size: 1.625rem; /* 26px/16px */
+}
+
+.intro {
+  font-size: 1.25em; /* 20px/16px */
+  line-height: 1.6;
+}
+
+.primary-content,
+.main-header,
+.main-footer {
+  text-align: center;
+}
+
+.primary-content {
+	padding-top: 25px;
+  padding-bottom: 95px;
+}
+
+.secondary-content {
+	padding-top: 80px;
+	padding-bottom: 70px;
+  border-bottom: 2px solid #dfe2e6;
+}
+/*
+.callout {
+  font-size: 1.25em;
+  border-bottom: 3px solid;
+  padding: 0 9px 3px;
+  margin-top: 20px;
+  display: inline-block;
+}
+*/
+.main-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  border-bottom: 10px solid   #ff48c4;
+}
+/*
+.t-border {
+  border-top: 2px solid #dfe2e6;
+}
+
+/* Layout Styles ------------------ */
+
+.primary-content,
+.secondary-content {
+  width: 60%;
+  margin: auto;
+}
+
+.kuvakeskella {
+  color: white;
+  background-color: #white;
+  padding: 1% 1%;
+ 
+  margin: 105px 0 60px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li  {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color:   #c04df9;
+}
+
+.lomake {
+  margin: r: 5px;
+
+
+}
+textarea{
+padding: 15px;
+margin: 15px;
+
+
+}
+
+img {
+  width: auto ;
+  max-width: 100% ;
+  height: auto ;
+}
+.napit{
+ display:  inline-block;
+
+}
+
+input {
+
+  margin:  10px;
+}
